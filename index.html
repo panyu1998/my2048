@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>我的2048啊</title>
+        <link rel="stylesheet" href="2048.css">
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="support.js"></script>
+        <script type="text/javascript" src="showanimate.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="javascript:newgame();" id="newbutton">New Game</a>
+            <p>分数: <span id="score">0</span></p>
+        </header>
+
+        <div id="grid-container">
+            <div class="grid-cell" id="grid-cell-0-0"></div>
+            <div class="grid-cell" id="grid-cell-0-1"></div>
+            <div class="grid-cell" id="grid-cell-0-2"></div>
+            <div class="grid-cell" id="grid-cell-0-3"></div>
+
+            <div class="grid-cell" id="grid-cell-1-0"></div>
+            <div class="grid-cell" id="grid-cell-1-1"></div>
+            <div class="grid-cell" id="grid-cell-1-2"></div>
+            <div class="grid-cell" id="grid-cell-1-3"></div>
+
+            <div class="grid-cell" id="grid-cell-2-0"></div>
+            <div class="grid-cell" id="grid-cell-2-1"></div>
+            <div class="grid-cell" id="grid-cell-2-2"></div>
+            <div class="grid-cell" id="grid-cell-2-3"></div>
+
+            <div class="grid-cell" id="grid-cell-3-0"></div>
+            <div class="grid-cell" id="grid-cell-3-1"></div>
+            <div class="grid-cell" id="grid-cell-3-2"></div>
+            <div class="grid-cell" id="grid-cell-3-3"></div>
+        </div>
+
+        <div id="gameover">
+            GAME OVER
+        </div> 
+
+        <div class="tail">
+        <p>请按← ↑ → ↓ 按键开始游戏</p>
+        </div>
+        
+    </body>
+</html>
